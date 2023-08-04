@@ -162,6 +162,17 @@ Icons will be used later.
 
 I haven't copied it correctly from the course repo, Github currently has issues with SVGs, but I've fixed it. Hence the weirdness in the code.
 
+### 3.4.4 Commit: Add navbar links and styles
+
+"3.4.4. Add navbar links and styles"
+
+react-tailwind-strapi-003-04-04-navbar-links-and-styles-commit-done.mp4
+
+### 3.4.5 Commit: Add navbar buttons and styles
+
+"3.4.5. Add navbar buttons and styles"
+
+Add the Login and Sign Up buttons.
 
 
 

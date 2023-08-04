@@ -10,8 +10,20 @@ const Navbar = () => {
             <div className="flex items-center">
                 <img className="sm:ml-10 ss:ml-10 md:ml-3 opacity-[55%] w-full h-[25px]" src={logo} alt="logo" />
             </div>
-            <div className=""></div>
-            <div className=""></div>
+            <div className="flex items-center">
+                <ul className="hidden md:flex">
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Support</li>
+                    <li>Platform</li>
+                    <li>Pricing</li>
+                </ul>
+            </div>
+
+            <div className="hidden md:flex sm:mr-10 md:mr-10">
+                <button className='border-none bg-transparent text-black hover:text-white hover:bg-indigo-600 px-8 py-3 mr-4'>Login</button>
+                <button className="px-8 py-3">Sign Up</button>
+            </div>
         </div>
     </div>
   )
