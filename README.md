@@ -192,6 +192,13 @@ Add the icon, styling, and toggleability.
 
 react-tailwind-strapi-003-05-01-add-blogs-section-card-styling-issue.mp4
 
+### 3.5.2 Commit: Add navbar menu overlap fix
+
+"3.5.2. Add navbar menu overlap fix"
+
+* Previously, the image was going under the navbar. This fixes it.
+
+
 
 
 
