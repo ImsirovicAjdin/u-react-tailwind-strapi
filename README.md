@@ -174,6 +174,11 @@ react-tailwind-strapi-003-04-04-navbar-links-and-styles-commit-done.mp4
 
 Add the Login and Sign Up buttons.
 
+### 3.4.6 Commit: Add navbar menu button (toggleable on mobile)
+
+"3.4.6 Commit: Add navbar menu button (toggleable on mobile)"
+
+Add the icon, styling, and toggleability.
 
 
 
