@@ -198,15 +198,15 @@ react-tailwind-strapi-003-05-01-add-blogs-section-card-styling-issue.mp4
 
 * Previously, the image was going under the navbar. This fixes it.
 
-### 3.5.3 Commit: Add blogs card heading and desc under img
+### 3.5.3 Commit: Update blogs card with title n desc, repeat cards
 
-"3.5.3. Add blogs card heading and desc under img"
+"3.5.3 Commit: Update blogs card with title n desc, repeat cards"
 
 * Added an h3 and a p tag under the image.
 * Repeated the same card three times (hard coded).
-* Next, I'll dynamically repeat cards, because hard-coding is bad.
+* Also, I'm dynamically repeating cards, because hard-coding is bad.
 
-
+react-tailwind-strapi-003-05-03-update-blogs-card-with-title-desc-plus-repeat-cards.mp4
 
 
 
