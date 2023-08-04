@@ -156,6 +156,13 @@ Add basic structure.
 
 Icons will be used later.
 
+### 3.4.3 Commit: Add navbar logo
+
+"3.4.3. Add navbar logo"
+
+I haven't copied it correctly from the course repo, Github currently has issues with SVGs, but I've fixed it. Hence the weirdness in the code.
+
+
 
 
 
