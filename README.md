@@ -128,20 +128,33 @@ End of 2.3.1 vid:
 react-tailwind-strapi-002-03-01-pt1-strapi-admin-creds-setup.mp4
 react-tailwind-strapi-002-03-01-pt2-adding-Blogs-collection.mp4
 
+NOTE:
+
+When cloning on a different machine, do this:
+```bash
+git clone --recurse-submodules <repository_url>
+```
+
+Replace <repository_url> with the URL of your React app's repository on GitHub. The --recurse-submodules flag ensures that Git recursively clones the main repository and all its submodules.
+
+After cloning, you'll have both the main repository and the strapi submodule locally, and you can work with the entire codebase, including the content of the strapi folder. However, keep in mind that submodules maintain their own separate version history, and you'll need to manually update the submodule if you want to use the latest changes from the strapi repository.
+
 # 3. Frontend
 
 ## 3.4 Navbar
 
-## 3.4.1 Commit: Add navbar
+### 3.4.1 Commit: Add navbar
 
 "3.4.1. Add navbar"
 
 Add basic structure.
 
 
+### 3.4.2 Commit: Add navbar svg icons and wrapping div
 
+"3.4.2. Add navbar svg icons and wrapping div"
 
-
+Icons will be used later.
 
 
 
