@@ -180,6 +180,18 @@ Add the Login and Sign Up buttons.
 
 Add the icon, styling, and toggleability.
 
+## 3.5 Blogs Section
+
+### 3.5.1 Commit: Add blogs section
+
+"3.5.1. Add blogs section"
+
+* Add basic structure.
+* Add styling.
+* The video shows the responsiveness issue with the single card image on mobile. I've fixed it in the next commit.
+
+react-tailwind-strapi-003-05-01-add-blogs-section-card-styling-issue.mp4
+
 
 
 
