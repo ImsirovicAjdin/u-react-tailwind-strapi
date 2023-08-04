@@ -30,7 +30,7 @@ npm run dev
   ➜  press h to show help
 ```
 
-Video: 
+Video:
 react-tailwind-strapi-001-vite-react-working.mp4
 
 ## 2.2.2 Install Tailwind CSS
@@ -89,7 +89,7 @@ export default function App() {
 }
 ```
 
-End of 2.2 vid: 
+End of 2.2 vid:
 react-tailwind-strapi-002-02-tw-working.mp4
 
 ## 2.3 Strapi CMS
@@ -115,7 +115,7 @@ localhost:1337/admin/auth/register-admin
 ```
 
 Q:
-I've ran the command npx create-strapi-app@latest strapi --quickstart, which opened the admin login at localthost 1337, but I've accidentally stopped the process with CTRL + D in the terminal. How do I restart the process so that I can setup the login for strapi admin?
+I've ran the command npx create-strapi-app@latest strapi --quickstart, which opened the admin login at localtost 1337, but I've accidentally stopped the process with CTRL + D in the terminal. How do I restart the process so that I can setup the login for strapi admin?
 
 A:
 ```
@@ -124,7 +124,7 @@ npm run develop
 # go to http://localhost:1337/admin
 ```
 
-End of 2.3.1 vid: 
+End of 2.3.1 vid:
 react-tailwind-strapi-002-03-01-pt1-strapi-admin-creds-setup.mp4
 react-tailwind-strapi-002-03-01-pt2-adding-Blogs-collection.mp4
 
