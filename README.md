@@ -128,6 +128,17 @@ End of 2.3.1 vid:
 react-tailwind-strapi-002-03-01-pt1-strapi-admin-creds-setup.mp4
 react-tailwind-strapi-002-03-01-pt2-adding-Blogs-collection.mp4
 
+# 3. Frontend
+
+## 3.4 Navbar
+
+## 3.4.1 Commit: Add navbar
+
+"3.4.1. Add navbar"
+
+Add basic structure.
+
+
 
 
 
