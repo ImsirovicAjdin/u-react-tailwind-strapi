@@ -208,8 +208,10 @@ react-tailwind-strapi-003-05-01-add-blogs-section-card-styling-issue.mp4
 
 react-tailwind-strapi-003-05-03-update-blogs-card-with-title-desc-plus-repeat-cards.mp4
 
+### 3.5.4 Commit: Further improve blogs cards responsiveness
 
+"3.5.4 Commit: Further improve blogs cards responsiveness"
 
+* Added small and medium screens columns for the cards.
 
-
-
+react-tailwind-strapi-003-05-04-further-improve-blogs-cards-responsiveness.mp4
