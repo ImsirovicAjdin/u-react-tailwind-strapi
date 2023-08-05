@@ -260,3 +260,9 @@ react-tailwind-strapi-003-07-02-add-blogcontent-page.mp4
 
 * Add BlogContent component.
 * Update the pages/BlogContent to pages/BlogContentPage because there was a naming conflict.
+
+### 3.7.4 Commit: Update BlogContent structure and styling
+
+"3.7.4 Update BlogContent structure and styling"
+
+* Update the structure and styling of BlogContent component.
