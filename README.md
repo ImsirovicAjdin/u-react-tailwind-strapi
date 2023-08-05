@@ -336,3 +336,13 @@ react-tailwind-strapi-003-09-03-add-route-with-path-for-homepage-and-blogcontent
     * I'm mapping over the `blogs` array and rendering a Link for each blog. I'm acheiving this by wrapping the existing div with a Link.
 
 react-tailwind-strapi-003-09-04-add-link-to-the-blog.mp4
+
+### 3.9.5 Commit: Add Link to the Blog's ID
+
+"3.9.5 Add Link to the Blog's ID"
+
+* Add Link to the Blog's ID.
+* I'm using the `id` property of the `blog` object to create a dynamic path for each invididual blog post
+* Now the blog URL has the id at the end!
+
+react-tailwind-strapi-003-09-05-add-link-to-the-blog-id.mp4
