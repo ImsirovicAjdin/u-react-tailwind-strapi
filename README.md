@@ -394,3 +394,14 @@ react-tailwind-strapi-003-09-09-re-add-blog-title-instead-of-id-to-BlogContent-j
     * Make sure you've published the content
 
 react-tailwind-strapi-003-10-01-add-blog-posts-data-in-Strapi-CMS.mp4
+
+### 3.10.2 Commit: Make sure your content is accessible
+
+Go to Strapi left sidebar > Settings > USERS AND PERMISSIONS PLUGIN - Roles > Public > Permissions > Blogs > I've checked ALL the permissions.
+
+So now all these actions and data are accessible via the API.
+
+Test with these urls:
+
+localhost:1337/api/blogs
+
