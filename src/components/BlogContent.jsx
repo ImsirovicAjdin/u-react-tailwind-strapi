@@ -8,7 +8,11 @@ function BlogContent() {
         title: "10 Days of Solidity",
         description: "Learn on how to learn Solidity in 10 Days!",
         coverImg: figmaLogo,
-        content: "Intro to Web3 Day 1: Intro to Web 3 What is Web3 To put it simply, Web3 is Web2++. Intro to Web 3 What is Web3 To Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae voluptas temporibus voluptatibus neque quia nisi quae maiores minus quo corporis... put it simply, Web3 is Web2++. Intro to Web 3 What is Web3 To put it simply, Web3 is Web2++. Intro to Web 3 What is Web3 To put it simply, Web3 is Web2++. "
+        content: "Intro to Web3 Day 1: Intro to Web 3 What is Web3 To put it simply, Web3 is Web2++. Intro to Web 3 What is Web3 To Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae voluptas temporibus voluptatibus neque quia nisi quae maiores minus quo corporis... put it simply, Web3 is Web2++. Intro to Web 3 What is Web3 To put it simply, Web3 is Web2++. Intro to Web 3 What is Web3 To put it simply, Web3 is Web2++. ",
+
+        'authorName':'John Doe',
+        'authorImg' :'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1600',
+        'authorDesc':'Web Developer'
     }
 
 
@@ -26,11 +30,11 @@ function BlogContent() {
                 </div>
 
                 <div className="w-full bg-white rounded-xl overflow-hidden drop-shadow-md py-5 max-h-[250px]">
-                    <img className="p-2 w-32 h-32 rounded-full mx-auto" src="" />
+                    <img className="p-2 w-32 h-32 rounded-full mx-auto object-cover" src={blog.authorImg} />
                     <h1 className="font-bold text-2xl text-center text-gray-900 pt-3">
-                        John Doe
+                        {blog.authorName}
                     </h1>
-                    <p className="text-center text-gray-900 font-medium">Web developer</p>
+                    <p className="text-center text-gray-900 font-medium">{blog.authorDesc}</p>
                 </div>
             </div>
         </div>

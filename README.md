@@ -282,3 +282,13 @@ react-tailwind-strapi-003-07-02-add-blogcontent-page.mp4
 * In the next commit, I'll make the author section data dynamic
 
 react-tailwind-strapi-003-08-01-add-blog-post-author-section.mp4
+
+### 3.8.2 Commit: Add dynamic data for the author section
+
+"3.8.2 Add dynamic data for the author section"
+
+* Add dynamic data for the author section to the `blog` variable.
+* Update the structure to consume this dynamic data.
+* It all works, but there's a responsive issue on narrow resolutions - this is shown in the video for this commit.
+
+react-tailwind-strapi-003-08-02-add-dynamic-data-for-the-author-section.mp4
