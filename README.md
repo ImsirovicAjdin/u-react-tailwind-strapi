@@ -316,3 +316,13 @@ react-tailwind-strapi-003-08-02-add-dynamic-data-for-the-author-section.mp4
 * Import Routes, Route from react-router-dom.
 * Wrap Homepage and BlogContent with Routes.
 * Note: App is broken in this commit because I haven't added Route with path for the Homepage and BlogContent yet.
+
+### 3.9.3 Commit: Add Route with path for Homepage and BlogContent
+
+"3.9.3 Add Route with path for Homepage and BlogContent"
+
+* Add Route with path for Homepage and BlogContent.
+* App is working again.
+* Now I can switch between the pages using the browser's address bar.
+
+react-tailwind-strapi-003-09-03-add-route-with-path-for-homepage-and-blogcontent.mp4

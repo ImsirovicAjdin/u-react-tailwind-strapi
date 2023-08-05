@@ -5,8 +5,8 @@ export default function App() {
   return (
     <div>
       <Routes>
-        {/* <Homepage /> */}
-        <BlogContent />
+        <Route path="/" element={<Homepage />} />
+        <Route path="/blog" element={<BlogContent />} />
       </Routes>
     </div>
   );
