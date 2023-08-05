@@ -381,3 +381,16 @@ react-tailwind-strapi-003-09-08-convert-array-of-1-to-an-object-in-BlogContent-j
 * Re-add blog.title instead of id to BlogContent.jsx.
 
 react-tailwind-strapi-003-09-09-re-add-blog-title-instead-of-id-to-BlogContent-jsx.mp4
+
+## 3.10 Strapi CMS
+
+### 3.10.1 Commit: Add blog posts' data in Strapi CMS
+
+"3.10.1 Add blog posts' data in Strapi CMS"
+
+* Host some content on Strapi
+    * Click on Content Manager
+    * Create several entries for the blogs collection type
+    * Make sure you've published the content
+
+react-tailwind-strapi-003-10-01-add-blog-posts-data-in-Strapi-CMS.mp4
