@@ -266,3 +266,7 @@ react-tailwind-strapi-003-07-02-add-blogcontent-page.mp4
 "3.7.4 Update BlogContent structure and styling"
 
 * Update the structure and styling of BlogContent component.
+
+### 3.7.5 Commit: Add array of fake data to BlogContent
+
+"3.7.5 Add array of fake data to BlogContent"
