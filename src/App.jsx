@@ -1,10 +1,10 @@
-import { Homepage } from "./pages";
+import { Homepage, BlogContent } from "./pages";
 
 export default function App() {
   return (
     <div>
-      HOMEPAGE (TEMP TEST):
-      <Homepage />
+      {/* <Homepage /> */}
+      <BlogContent />
     </div>
   );
 }
