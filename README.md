@@ -397,6 +397,8 @@ react-tailwind-strapi-003-10-01-add-blog-posts-data-in-Strapi-CMS.mp4
 
 ### 3.10.2 Commit: Make sure your content is accessible
 
+"3.10.2 Make sure your content is accessible"
+
 Go to Strapi left sidebar > Settings > USERS AND PERMISSIONS PLUGIN - Roles > Public > Permissions > Blogs > I've checked ALL the permissions.
 
 So now all these actions and data are accessible via the API.
@@ -405,3 +407,12 @@ Test with these urls:
 
 localhost:1337/api/blogs
 
+### 3.10.3 Commit: Add hooks/useFetch.js
+
+"3.10.3 Add hooks/useFetch.js"
+
+* Add hooks/useFetch.js.
+* Utilize hooks/useFetch in App.jsx to get the data from the BE
+* Console log the recieved data!
+
+react-tailwind-strapi-003-10-03-add-hooks-useFetch-js.mp4
