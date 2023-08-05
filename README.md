@@ -215,3 +215,22 @@ react-tailwind-strapi-003-05-03-update-blogs-card-with-title-desc-plus-repeat-ca
 * Added small and medium screens columns for the cards.
 
 react-tailwind-strapi-003-05-04-further-improve-blogs-cards-responsiveness.mp4
+
+## 3.6 Footer
+
+### 3.6.1 Commit: Add footer
+
+"3.6.1 Add footer"
+
+* Add basic structure.
+
+react-tailwind-strapi-003-06-01-add-footer.mp4
+
+### 3.6.2 Commit: Add footer styling
+
+"3.6.2 Add footer styling"
+
+Install icons:
+`npm i react-icons`
+
+react-tailwind-strapi-003-06-02-add-footer-styling.mp4
