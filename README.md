@@ -373,3 +373,11 @@ react-tailwind-strapi-003-09-07-update-data-structure-in-BlogContent-jsx.mp4
 * Convert array of 1 to an object in BlogContent.jsx.
 
 react-tailwind-strapi-003-09-08-convert-array-of-1-to-an-object-in-BlogContent-jsx.mp4
+
+### 3.9.9 Commit: Re-add blog.title instead of id to BlogContent.jsx
+
+"3.9.9 Re-add blog.title instead of id to BlogContent.jsx"
+
+* Re-add blog.title instead of id to BlogContent.jsx.
+
+react-tailwind-strapi-003-09-09-re-add-blog-title-instead-of-id-to-BlogContent-jsx.mp4
