@@ -1,10 +1,13 @@
 import { Homepage, BlogContent } from "./pages";
+import { Routes, Route } from 'react-router-dom';
 
 export default function App() {
   return (
     <div>
-      {/* <Homepage /> */}
-      <BlogContent />
+      <Routes>
+        {/* <Homepage /> */}
+        <BlogContent />
+      </Routes>
     </div>
   );
 }

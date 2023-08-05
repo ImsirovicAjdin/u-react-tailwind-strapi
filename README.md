@@ -302,9 +302,17 @@ react-tailwind-strapi-003-08-02-add-dynamic-data-for-the-author-section.mp4
 
 ## 3.9 Routing between pages
 
-### 3.9.1 Commit: Add routing between pages
+### 3.9.1 Commit: Install react-router-dom
 
-"3.9.1 Add routing between pages"
+"3.9.1 Install react-router-dom"
 
 1. Install react-router-dom: `npm i react-router-dom`
 2. Update `main.jsx` to wrap the App component with BrowserRouter.
+
+### 3.9.2 Commit: Wrap Homepage and BlogContent with Routes (in App.jsx)
+
+"3.9.2 Wrap Homepage and BlogContent with Routes (in App.jsx)"
+
+* Import Routes, Route from react-router-dom.
+* Wrap Homepage and BlogContent with Routes.
+* Note: App is broken in this commit because I haven't added Route with path for the Homepage and BlogContent yet.
