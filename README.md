@@ -234,3 +234,13 @@ Install icons:
 `npm i react-icons`
 
 react-tailwind-strapi-003-06-02-add-footer-styling.mp4
+
+## 3.7 Blog Content (Pt 1)
+
+### 3.7.1 Commit: Add Homepage component
+
+"3.7.1 Add Homepage component"
+
+* Move the content of App.jsx page to separate page, called Homepage.jsx.
+
+react-tailwind-strapi-003-07-01-add-homepage-component.mp4
