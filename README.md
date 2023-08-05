@@ -292,3 +292,11 @@ react-tailwind-strapi-003-08-01-add-blog-post-author-section.mp4
 * It all works, but there's a responsive issue on narrow resolutions - this is shown in the video for this commit.
 
 react-tailwind-strapi-003-08-02-add-dynamic-data-for-the-author-section.mp4
+
+### 3.8.3 Commit: Fix responsive issue with the author section
+
+"3.8.3 Fix responsive issue with the author section"
+
+* ~~Fix the responsive issue with the author section.~~
+* Tried to, but it's not worth wasting time on it. I'll get back to it once I've hooked up the Strapi CMS.
+
