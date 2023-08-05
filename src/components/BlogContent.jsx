@@ -1,8 +1,10 @@
 import React from 'react'
 import figmaLogo from '../assets/figma-3d-logo.png'
+import { useParams } from 'react-router-dom'
 
 function BlogContent() {
 
+    const { id } = useParams() // comes automatically from the url
     const blog = {
         id: 1,
         title: "10 Days of Solidity",
@@ -23,7 +25,7 @@ function BlogContent() {
             <div className="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-3 ss:grid-cols-1 gap-x-8 gap-y-8 px-4 sm:pt-20 md:mt-0 ss:pt-20 text-black">
                 <div className="col-span-2 gap-x-8 gap-y-8">
                     <img className="h-56 w-full object-cover" src={blog.coverImg} alt={blog.description} />
-                    <h1 className="font-bold text-2xl my-1 pt-5">{blog.title}</h1>
+                    <h1 className="font-bold text-2xl my-1 pt-5">{id}</h1>
                     <div className="pt-5">
                         <p>{blog.content}</p>
                     </div>

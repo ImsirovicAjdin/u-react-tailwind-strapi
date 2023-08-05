@@ -346,3 +346,13 @@ react-tailwind-strapi-003-09-04-add-link-to-the-blog.mp4
 * Now the blog URL has the id at the end!
 
 react-tailwind-strapi-003-09-05-add-link-to-the-blog-id.mp4
+
+### 3.9.6 Commit: Add useParams to BlogContent.jsx
+
+"3.9.6 Add useParams to BlogContent.jsx"
+
+* Import useParams from react-router-dom.
+* Add useParams to BlogContent.jsx.
+* Now I can access the id from the URL - at the moment I've replaced the `blog.title` with an `id`, so that the id number shows in the blog title - as a test.
+
+react-tailwind-strapi-003-09-06-add-useparams-to-BlogContent-jsx.mp4
