@@ -270,3 +270,15 @@ react-tailwind-strapi-003-07-02-add-blogcontent-page.mp4
 ### 3.7.5 Commit: Add array of fake data to BlogContent
 
 "3.7.5 Add array of fake data to BlogContent"
+
+## 3.8 Blog Content (Pt 2)
+
+### 3.8.1 Commit: Add Blog Post's author section
+
+"3.8.1 Add Blog Post's author section"
+
+* Add three columns to BlogContent.jsx to cater for the to-be-added author section.
+* Add the author section.
+* In the next commit, I'll make the author section data dynamic
+
+react-tailwind-strapi-003-08-01-add-blog-post-author-section.mp4
