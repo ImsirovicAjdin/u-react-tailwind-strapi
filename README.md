@@ -300,3 +300,11 @@ react-tailwind-strapi-003-08-02-add-dynamic-data-for-the-author-section.mp4
 * ~~Fix the responsive issue with the author section.~~
 * Tried to, but it's not worth wasting time on it. I'll get back to it once I've hooked up the Strapi CMS.
 
+## 3.9 Routing between pages
+
+### 3.9.1 Commit: Add routing between pages
+
+"3.9.1 Add routing between pages"
+
+1. Install react-router-dom: `npm i react-router-dom`
+2. Update `main.jsx` to wrap the App component with BrowserRouter.
