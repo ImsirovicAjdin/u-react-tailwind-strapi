@@ -8,12 +8,11 @@ export default function App() {
 
   if (loading) return <p>Loading...</p>
   if (error) return <p>Error!(</p>
-  console.log(data);
 
   return (
     <div>
       <Routes>
-        <Route path="/" element={<Homepage />} />
+        <Route path="/" element={<Homepage blogs={data ? data : ""} />} />
         <Route path="/blog/:id" element={<BlogContent />} />
       </Routes>
     </div>

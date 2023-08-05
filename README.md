@@ -416,3 +416,19 @@ localhost:1337/api/blogs
 * Console log the recieved data!
 
 react-tailwind-strapi-003-10-03-add-hooks-useFetch-js.mp4
+
+## 3.11 Mapping through the data
+
+### 3.11.1 Pass data as props
+
+"3.11.1 Pass data as props"
+
+* Pass data as props from App.jsx to Homepage.jsx.
+    * If data is found, we pass it as `data`, if not, we pass an empty string: `blogs={data ? data : ""}`.
+* Map through the data in Homepage.jsx.
+    * First we receive it as `({blogs})` in the Homepage function.
+    * For now we're just console logging the data.
+
+
+react-tailwind-strapi-003-11-01-pass-data-as-props.mp4
+
