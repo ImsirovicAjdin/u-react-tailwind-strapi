@@ -1,5 +1,6 @@
 import React from 'react'
 import figmaLogo from '../assets/figma-3d-logo.png'
+import { Link } from 'react-router-dom';
 
 const Blogs = () => {
 
@@ -37,19 +38,21 @@ const Blogs = () => {
             <div className="grid lg:grid-cols-3 mg:grid-cols-2 sm:grid-cols-2 ss:grid-cols-1 gap-8 px-4 text-black">
 
                 {blogs.map((blog) => (
-                    <div className="bg-white rounded-xl overflow-hidden drop-shadow-md" key={blog.id}>
-                        <img
-                            className="w-full h-[200px] object-cover"
-                            src={blog.coverImg}
-                            alt="blog"
-                        />
-                        <div className="p-8">
-                            <h3 className="font-bold text-2xl my-1">{blog.title}</h3>
-                            <p className="text-gray-600 text-xl">
-                                {blog.description}
-                            </p>
+                    <Link key={blog.id} to="/blog" >
+                        <div className="bg-white rounded-xl overflow-hidden drop-shadow-md" >
+                            <img
+                                className="w-full h-[200px] object-cover"
+                                src={blog.coverImg}
+                                alt="blog"
+                            />
+                            <div className="p-8">
+                                <h3 className="font-bold text-2xl my-1">{blog.title}</h3>
+                                <p className="text-gray-600 text-xl">
+                                    {blog.description}
+                                </p>
+                            </div>
                         </div>
-                    </div>
+                    </Link>
                 ))}
 
             </div>

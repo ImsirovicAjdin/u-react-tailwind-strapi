@@ -326,3 +326,13 @@ react-tailwind-strapi-003-08-02-add-dynamic-data-for-the-author-section.mp4
 * Now I can switch between the pages using the browser's address bar.
 
 react-tailwind-strapi-003-09-03-add-route-with-path-for-homepage-and-blogcontent.mp4
+
+### 3.9.4 Commit: Add Link to the Blog
+
+"3.9.4 Add Link to the Blog"
+
+* Import Link from react-router-dom.
+* Add Link to the Blog.
+    * I'm mapping over the `blogs` array and rendering a Link for each blog. I'm acheiving this by wrapping the existing div with a Link.
+
+react-tailwind-strapi-003-09-04-add-link-to-the-blog.mp4
