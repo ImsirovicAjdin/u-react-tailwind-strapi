@@ -5,19 +5,48 @@ import { useParams } from 'react-router-dom'
 function BlogContent() {
 
     const { id } = useParams() // comes automatically from the url
-    const blog = {
-        id: 1,
-        title: "10 Days of Solidity",
-        description: "Learn on how to learn Solidity in 10 Days!",
-        coverImg: figmaLogo,
-        content: "Intro to Web3 Day 1: Intro to Web 3 What is Web3 To put it simply, Web3 is Web2++. Intro to Web 3 What is Web3 To Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae voluptas temporibus voluptatibus neque quia nisi quae maiores minus quo corporis... put it simply, Web3 is Web2++. Intro to Web 3 What is Web3 To put it simply, Web3 is Web2++. Intro to Web 3 What is Web3 To put it simply, Web3 is Web2++. ",
 
-        'authorName':'John Doe',
-        'authorImg' :'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1600',
-        'authorDesc':'Web Developer'
-    }
+    const blogs = [
+        {
+            id: 1,
+            title: "Figma 3D part 1",
+            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+            coverImg: figmaLogo,
+            'authorName':'John Doe',
+            'authorImg' :'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1600',
+            'authorDesc':'Web Developer'
+        },
+        {
+            id: 2,
+            title: "Figma 3D part 2",
+            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+            coverImg: figmaLogo,
+            'authorName':'John Doe',
+            'authorImg' :'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1600',
+            'authorDesc':'Web Developer'
+        },
+        {
+            id: 3,
+            title: "Figma 3D part 3",
+            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+            coverImg: figmaLogo,
+            'authorName':'John Doe',
+            'authorImg' :'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1600',
+            'authorDesc':'Web Developer'
+        },
+        {
+            id: 4,
+            title: "Figma 3D part 4",
+            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+            coverImg: figmaLogo,
+            'authorName':'John Doe',
+            'authorImg' :'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1600',
+            'authorDesc':'Web Developer'
+        },
+    ]
 
-
+    const blog = blogs.filter((blog) => blog.id == id)
+    console.log(blog) // returns an array of one object
 
   return (
     <div className="w-full pb-10 bg-[#f9f9f9]">

@@ -9,25 +9,37 @@ const Blogs = () => {
             id: 1,
             title: "Figma 3D part 1",
             description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
-            coverImg: figmaLogo
+            coverImg: figmaLogo,
+            'authorName':'John Doe',
+            'authorImg' :'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1600',
+            'authorDesc':'Web Developer'
         },
         {
             id: 2,
             title: "Figma 3D part 2",
             description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
-            coverImg: figmaLogo
+            coverImg: figmaLogo,
+            'authorName':'John Doe',
+            'authorImg' :'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1600',
+            'authorDesc':'Web Developer'
         },
         {
             id: 3,
             title: "Figma 3D part 3",
             description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
-            coverImg: figmaLogo
+            coverImg: figmaLogo,
+            'authorName':'John Doe',
+            'authorImg' :'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1600',
+            'authorDesc':'Web Developer'
         },
         {
             id: 4,
             title: "Figma 3D part 4",
             description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
-            coverImg: figmaLogo
+            coverImg: figmaLogo,
+            'authorName':'John Doe',
+            'authorImg' :'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1600',
+            'authorDesc':'Web Developer'
         },
     ]
 

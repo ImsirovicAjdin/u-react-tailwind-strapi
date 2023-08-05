@@ -356,3 +356,12 @@ react-tailwind-strapi-003-09-05-add-link-to-the-blog-id.mp4
 * Now I can access the id from the URL - at the moment I've replaced the `blog.title` with an `id`, so that the id number shows in the blog title - as a test.
 
 react-tailwind-strapi-003-09-06-add-useparams-to-BlogContent-jsx.mp4
+
+### 3.9.7 Commit: Update data structure in BlogContent.jsx
+
+"3.9.7 Update data structure in BlogContent.jsx"
+
+* Update data structure in BlogContent.jsx.
+* It seems like the author made a mistake here, because he's duplicating the `blogs` array from the Blogs.jsx files and adding it to the `blog` array in the BlogContent.jsx file. I'll have to follow it and hope that he's fixed it later on. Also, I need to do is so as to understand the good and bad approaches.
+
+react-tailwind-strapi-003-09-07-update-data-structure-in-BlogContent-jsx.mp4
