@@ -45,7 +45,8 @@ function BlogContent() {
         },
     ]
 
-    const blog = blogs.filter((blog) => blog.id == id)
+    let blog = blogs.filter((blog) => blog.id == id)
+    blog = blog[0]
     console.log(blog) // returns an array of one object
 
   return (

@@ -365,3 +365,11 @@ react-tailwind-strapi-003-09-06-add-useparams-to-BlogContent-jsx.mp4
 * It seems like the author made a mistake here, because he's duplicating the `blogs` array from the Blogs.jsx files and adding it to the `blog` array in the BlogContent.jsx file. I'll have to follow it and hope that he's fixed it later on. Also, I need to do is so as to understand the good and bad approaches.
 
 react-tailwind-strapi-003-09-07-update-data-structure-in-BlogContent-jsx.mp4
+
+### 3.9.8 Commit: Convert array of 1 to an object in BlogContent.jsx
+
+"3.9.8 Convert array of 1 to an object in BlogContent.jsx"
+
+* Convert array of 1 to an object in BlogContent.jsx.
+
+react-tailwind-strapi-003-09-08-convert-array-of-1-to-an-object-in-BlogContent-jsx.mp4
