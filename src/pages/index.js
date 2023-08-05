@@ -1,5 +1,5 @@
 import Homepage from "./Homepage";
-import BlogContent from "./BlogContent";
+import BlogContent from "./BlogContentPage";
 
 export {
     Homepage,

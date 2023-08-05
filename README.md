@@ -253,3 +253,10 @@ react-tailwind-strapi-003-07-01-add-homepage-component.mp4
 * Hook up the basic structure and test using only BlogContent in App.jsx because later on I'll be dynamically switching between BlogContent and Homepage using routing.
 
 react-tailwind-strapi-003-07-02-add-blogcontent-page.mp4
+
+### 3.7.3 Commit: Add BlogContent component
+
+"3.7.3 Add BlogContent component, mv pages/BlogContent to pages/BlogContentPage"
+
+* Add BlogContent component.
+* Update the pages/BlogContent to pages/BlogContentPage because there was a naming conflict.
