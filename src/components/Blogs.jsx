@@ -2,65 +2,25 @@ import React from 'react'
 import figmaLogo from '../assets/figma-3d-logo.png'
 import { Link } from 'react-router-dom';
 
-const Blogs = () => {
-
-    const blogs = [
-        {
-            id: 1,
-            title: "Figma 3D part 1",
-            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
-            coverImg: figmaLogo,
-            'authorName':'John Doe',
-            'authorImg' :'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1600',
-            'authorDesc':'Web Developer'
-        },
-        {
-            id: 2,
-            title: "Figma 3D part 2",
-            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
-            coverImg: figmaLogo,
-            'authorName':'John Doe',
-            'authorImg' :'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1600',
-            'authorDesc':'Web Developer'
-        },
-        {
-            id: 3,
-            title: "Figma 3D part 3",
-            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
-            coverImg: figmaLogo,
-            'authorName':'John Doe',
-            'authorImg' :'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1600',
-            'authorDesc':'Web Developer'
-        },
-        {
-            id: 4,
-            title: "Figma 3D part 4",
-            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
-            coverImg: figmaLogo,
-            'authorName':'John Doe',
-            'authorImg' :'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1600',
-            'authorDesc':'Web Developer'
-        },
-    ]
-
+const Blogs = ({ blogs = [] }) => {
 
   return (
     <div className="w-full bg-[#f9f9f9] py-[50px]">
         <div className="max-w-[1240px] mx-auto">
             <div className="grid lg:grid-cols-3 mg:grid-cols-2 sm:grid-cols-2 ss:grid-cols-1 gap-8 px-4 text-black">
 
-                {blogs.map((blog) => (
+            {blogs.data.map((blog) => (
                     <Link key={blog.id} to={`/blog/${blog.id}`} >
                         <div className="bg-white rounded-xl overflow-hidden drop-shadow-md" >
                             <img
                                 className="w-full h-[200px] object-cover"
-                                src={blog.coverImg}
+                                src={`http://localhost:1337${blog.attributes.coverImg.data.attributes.url}`}
                                 alt="blog"
                             />
                             <div className="p-8">
-                                <h3 className="font-bold text-2xl my-1">{blog.title}</h3>
+                                <h3 className="font-bold text-2xl my-1">{blog.attributes.blogTitle}</h3>
                                 <p className="text-gray-600 text-xl">
-                                    {blog.description}
+                                    {blog.attributes.blogDesc}
                                 </p>
                             </div>
                         </div>

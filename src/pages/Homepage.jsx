@@ -1,13 +1,12 @@
 import React from 'react'
 import { Navbar, Blogs, Footer } from '../components';
 
-const Homepage = ({ blogs }) => {
-  console.log("Homepage", blogs);
+const Homepage = ({ blogs = [] }) => {
 
   return (
     <div>
       <Navbar />
-      <Blogs />
+      <Blogs blogs={blogs ? blogs : ""} />
       <Footer />
     </div>
   )

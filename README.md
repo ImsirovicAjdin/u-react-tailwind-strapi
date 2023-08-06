@@ -382,7 +382,8 @@ react-tailwind-strapi-003-09-08-convert-array-of-1-to-an-object-in-BlogContent-j
 
 react-tailwind-strapi-003-09-09-re-add-blog-title-instead-of-id-to-BlogContent-jsx.mp4
 
-## 3.10 Strapi CMS
+# 4. Backend
+## 4.10 Strapi CMS
 
 ### 3.10.1 Commit: Add blog posts' data in Strapi CMS
 
@@ -417,7 +418,7 @@ localhost:1337/api/blogs
 
 react-tailwind-strapi-003-10-03-add-hooks-useFetch-js.mp4
 
-## 3.11 Mapping through the data
+## 4.11 Mapping through the data
 
 ### 3.11.1 Pass data as props
 
@@ -431,4 +432,23 @@ react-tailwind-strapi-003-10-03-add-hooks-useFetch-js.mp4
 
 
 react-tailwind-strapi-003-11-01-pass-data-as-props.mp4
+
+### 3.11.2 Pass data from Homepage to Blogs
+
+This feels sort of redundant but ok - maybe there's sth I'm missing here.
+
+react-tailwind-strapi-003-11-02-pass-data-from-Homepage-to-Blogs.mp4
+
+### 3.11.3 Mapping though the data
+
+"3.11.3 Mapping though the data"
+
+* Map through the data in Blogs.jsx.
+
+Todo: *Fix the 'blogs' is missing in props validation eslint error*
+
+react-tailwind-strapi-003-11-03-mapping-though-the-data.mp4
+
+## 4.12 Routing between pages with dynamic data
+
 
