@@ -31,11 +31,15 @@ function BlogContent({blogs}) {
                 </div>
 
                 <div className="w-full bg-white rounded-xl overflow-hidden drop-shadow-md py-5 max-h-[250px]">
-                    <img className="p-2 w-32 h-32 rounded-full mx-auto object-cover" src={blog.authorImg} />
+                    <img
+                        className="p-2 w-32 h-32 rounded-full mx-auto object-cover"
+                        src={blog.authorImg}
+                        src={`http://localhost:1337${blog.attributes.authorImg.data.attributes.url}`}
+                    />
                     <h1 className="font-bold text-2xl text-center text-gray-900 pt-3">
-                        {blog.authorName}
+                        {blog.attributes.authorName}
                     </h1>
-                    <p className="text-center text-gray-900 font-medium">{blog.authorDesc}</p>
+                    <p className="text-center text-gray-900 font-medium">{blog.attributes.authorDesc}</p>
                 </div>
             </div>
         </div>

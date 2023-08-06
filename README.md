@@ -451,4 +451,15 @@ react-tailwind-strapi-003-11-03-mapping-though-the-data.mp4
 
 ## 4.12 Routing between pages with dynamic data
 
+## 4.13 Last few steps to enhance your blog
+
+Author name and avatar is missing
+
+I'll add it through strapi.
+
+react-tailwind-strapi-003-13-01-add-author-name-and-avatar-through-strapi.mp4
+
+react-tailwind-strapi-004-13-02-add-author-name-and-avatar-through-strapi-my-work.mp4
+
+react-tailwind-strapi-004-13-03-add-author-name-and-avatar-through-strapi-my-work-add-authorImg-etc.mp4
 
