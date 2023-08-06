@@ -1,6 +1,8 @@
-import React from 'react'
-import figmaLogo from '../assets/figma-3d-logo.png'
-import { useParams } from 'react-router-dom'
+import React from 'react';
+import figmaLogo from '../assets/figma-3d-logo.png';
+import { useParams } from 'react-router-dom';
+import ReactMarkdown from 'react-markdown';
+
 
 function BlogContent({blogs}) {
 
@@ -26,14 +28,15 @@ function BlogContent({blogs}) {
                     <img className="h-56 w-full object-cover" src={`http://localhost:1337${blog.attributes.coverImg.data.attributes.url}`} alt={blog.attributes.blogDesc} />
                     <h1 className="font-bold text-2xl my-1 pt-5">{blog.attributes.blogTitle}</h1>
                     <div className="pt-5">
-                        <p>{blog.attributes.blogContent}</p>
+                        <ReactMarkdown className="line-break">
+                            {blog.attributes.blogContent}
+                        </ReactMarkdown>
                     </div>
                 </div>
 
                 <div className="w-full bg-white rounded-xl overflow-hidden drop-shadow-md py-5 max-h-[250px]">
                     <img
                         className="p-2 w-32 h-32 rounded-full mx-auto object-cover"
-                        src={blog.authorImg}
                         src={`http://localhost:1337${blog.attributes.authorImg.data.attributes.url}`}
                     />
                     <h1 className="font-bold text-2xl text-center text-gray-900 pt-3">

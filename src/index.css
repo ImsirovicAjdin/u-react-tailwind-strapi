@@ -13,6 +13,11 @@
     padding: 0;
     list-style-type: none;
   }
+
+  .line-break {
+    white-space: pre-wrap;
+  }
+
 }
 
 /* :root {

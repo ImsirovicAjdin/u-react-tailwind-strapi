@@ -463,3 +463,11 @@ react-tailwind-strapi-004-13-02-add-author-name-and-avatar-through-strapi-my-wor
 
 react-tailwind-strapi-004-13-03-add-author-name-and-avatar-through-strapi-my-work-add-authorImg-etc.mp4
 
+## 4.14 Adding React markdown
+
+npm i react-markdown
+
+After adding react-markdown, now I can have the bolding, italics, etc in my blog posts, like in the video:
+react-tailwind-strapi-004-14-02-adding-react-markdown-practice.mp4
+
+react-tailwind-strapi-004-14-03-adding-pre-wrap-styling.mp4
